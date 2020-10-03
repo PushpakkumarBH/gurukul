@@ -1,0 +1,129 @@
+
+body{
+	margin: 0px;
+}
+.container{
+	height: 2000px;
+}
+.btn {
+  background: #f5b40e;
+  background-image: -webkit-linear-gradient(top, #f5b40e, #7bc7c1);
+  background-image: -moz-linear-gradient(top, #f5b40e, #7bc7c1);
+  background-image: -ms-linear-gradient(top, #f5b40e, #7bc7c1);
+  background-image: -o-linear-gradient(top, #f5b40e, #7bc7c1);
+  background-image: linear-gradient(to bottom, #f5b40e, #7bc7c1);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 21px 10px 20px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.btn:hover {
+  background: #fc7f3c;
+  background-image: -webkit-linear-gradient(top, #fc7f3c, #34d968);
+  background-image: -moz-linear-gradient(top, #fc7f3c, #34d968);
+  background-image: -ms-linear-gradient(top, #fc7f3c, #34d968);
+  background-image: -o-linear-gradient(top, #fc7f3c, #34d968);
+  background-image: linear-gradient(to bottom, #fc7f3c, #34d968);
+  text-decoration: none;
+}
+.header{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 90px;
+	width: 100%;
+    z-index: 100;
+/*    background-color: white;
+*/}
+.div-logo{
+	margin: 10px;
+	float: left;
+}
+.logo-text{
+	display: block;
+	font-family: "Helvatica Neue";
+	font-weight: bold;
+	color: white;
+}
+.nav{
+	float: right;
+	height:100%;
+}
+.nav a{
+	color:black;
+	font-size: 15px;
+	font-weight: 700;
+	font-family: "Helvatica Neue";
+	padding-right: 20px;
+	padding-top: 12%;
+	display: inline-block;
+	text-decoration-line: none;
+}
+.nav a:hover{
+	color: orange;
+}
+.site-content{
+	position:absolute;
+	top: 78px;
+	width: 100%;
+
+}
+.image-content{
+	background-image: url('backgroung-image.jpg');
+	height: 500px;
+	width: 100%;
+	text-align: center;
+	background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+.image-content h1{
+	font-family: 'Sansita Swashed', cursive;
+	padding-top: 190px;
+	color: black;
+}
+.quote{
+	color: white;
+	font-family: "Helvatica Neue";
+	position: relative;
+	top: 10%;
+
+}
+.why-gurukul{
+	text-align: center;
+	width: 100%;
+}
+.card-list{
+	width: 80%;
+	margin: auto;
+
+}
+.card-text{
+	color: gray;
+	margin-top: 0px;
+}
+.card{
+	padding: 1.5%;
+	margin-left:100px;
+	margin-top: 50px;
+	text-align: center;
+	height: 200px;
+	float: left;
+	width: 20%;
+	display: inline-block;
+
+}
+.card-img{
+	width: 50%
+}
+.bottom-container{
+	position: fixed;
+	top: 50px;
+}
