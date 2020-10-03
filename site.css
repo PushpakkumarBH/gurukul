@@ -39,8 +39,8 @@ body{
 	height: 90px;
 	width: 100%;
     z-index: 100;
-/*    background-color: white;
-*/}
+   background-color: white;
+}
 .div-logo{
 	margin: 10px;
 	float: left;
