@@ -5,7 +5,7 @@ body{
 .container{
 	height: 2000px;
 }
-.btn {
+/*.btn {
   background: #f5b40e;
   background-image: -webkit-linear-gradient(top, #f5b40e, #7bc7c1);
   background-image: -moz-linear-gradient(top, #f5b40e, #7bc7c1);
@@ -31,15 +31,15 @@ body{
   background-image: -o-linear-gradient(top, #fc7f3c, #34d968);
   background-image: linear-gradient(to bottom, #fc7f3c, #34d968);
   text-decoration: none;
-}
+}*/
 .header{
 	position: fixed;
 	left: 0px;
 	right: 0px;
 	height: 90px;
 	width: 100%;
-    	z-index: 100;
-   	background-color: white;
+    z-index: 100;
+    background-color: white;
 }
 .div-logo{
 	margin: 10px;
@@ -72,7 +72,7 @@ body{
 	position:absolute;
 	top: 78px;
 	width: 100%;
-
+	
 }
 .image-content{
 	background-image: url('backgroung-image.jpg');
@@ -81,9 +81,7 @@ body{
 	text-align: center;
 	background-attachment: fixed;
     background-size: cover;
-    
-
-}
+ }
 .image-content h1{
 	font-family: 'Sansita Swashed', cursive;
 	padding-top: 190px;
@@ -99,10 +97,15 @@ body{
 .why-gurukul{
 	text-align: center;
 	width: 100%;
+	position: relative;
+	top: 10px;
 }
 .card-list{
 	width: 80%;
+	height: 800px;
 	margin: auto;
+	position: relative;
+	top: 6px;
 
 }
 .card-text{
@@ -114,7 +117,7 @@ body{
 	margin-left:100px;
 	margin-top: 50px;
 	text-align: center;
-	height: 200px;
+	height: 300px;
 	float: left;
 	width: 20%;
 	display: inline-block;
@@ -123,7 +126,87 @@ body{
 .card-img{
 	width: 50%
 }
-.bottom-container{
-	position: fixed;
-	top: 50px;
+.nav-b{
+	text-align: center;
+	height:50px;
+	width: 100%;
+
+	padding-top: 10px;
+	position: relative;
+	top: 20px;
+}
+.nav-b a{
+	color:black;
+	padding-right: 20px;
+	display: inline-block;
+	text-decoration-line: none;
+}
+.nav-b a:hover{
+	color:#ffba00;
+}
+
+.rating {
+	unicode-bidi: bidi-override;
+	direction: rtl;
+}
+  .rating > span {
+	display: inline-block;
+	position: relative;
+	width: 1.1em;
+}
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+	 content: "\2605";
+	 position: absolute;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container-contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
