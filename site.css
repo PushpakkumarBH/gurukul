@@ -189,11 +189,13 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 10px;
+  position:relative;
+  top:10px;
 }
 
 .column {
   float: left;
-  width: 50%;
+  width: 30%;
   margin-top: 6px;
   padding: 20px;
 }
