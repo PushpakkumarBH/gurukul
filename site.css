@@ -3,35 +3,9 @@ body{
 	margin: 0px;
 }
 .container{
-	height: 2000px;
-}
-/*.btn {
-  background: #f5b40e;
-  background-image: -webkit-linear-gradient(top, #f5b40e, #7bc7c1);
-  background-image: -moz-linear-gradient(top, #f5b40e, #7bc7c1);
-  background-image: -ms-linear-gradient(top, #f5b40e, #7bc7c1);
-  background-image: -o-linear-gradient(top, #f5b40e, #7bc7c1);
-  background-image: linear-gradient(to bottom, #f5b40e, #7bc7c1);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 21px 10px 20px;
-  text-decoration: none;
-  z-index: 100;
+	height: 700px;
 }
 
-.btn:hover {
-  background: #fc7f3c;
-  background-image: -webkit-linear-gradient(top, #fc7f3c, #34d968);
-  background-image: -moz-linear-gradient(top, #fc7f3c, #34d968);
-  background-image: -ms-linear-gradient(top, #fc7f3c, #34d968);
-  background-image: -o-linear-gradient(top, #fc7f3c, #34d968);
-  background-image: linear-gradient(to bottom, #fc7f3c, #34d968);
-  text-decoration: none;
-}*/
 .header{
 	position: fixed;
 	left: 0px;
@@ -99,6 +73,8 @@ body{
 	width: 100%;
 	position: relative;
 	top: 10px;
+	margin-top: 100px;
+
 }
 .card-list{
 	width: 80%;
@@ -142,7 +118,7 @@ body{
 	text-decoration-line: none;
 }
 .nav-b a:hover{
-	color:#ffba00;
+	color:green;
 }
 
 .rating {
@@ -215,4 +191,9 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+}
+
+.app{
+	margin-top: 100px;
+	width: 100%;
 }
